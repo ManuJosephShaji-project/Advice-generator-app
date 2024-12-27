@@ -20,8 +20,8 @@ Users should be able to:
 ![](./design/desktop-design.jpg)
 
 ### Links
-- Live Site URL:(https://github.com/ManuJosephShaji-project/Advice-generator-app.git)
-- Solution URL:(https://manujosephshaji-project.github.io/Advice-generator-app/)
+- Live Site URL: https://github.com/ManuJosephShaji-project/Advice-generator-app.git
+- Solution URL: https://manujosephshaji-project.github.io/Advice-generator-app/
 
 ### Built with
 
