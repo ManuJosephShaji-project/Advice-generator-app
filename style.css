@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /***Color***/
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--dark-blue);
+  font-family: "Manrope", serif;
+}
+
+img {
+  display: block;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  width: 43%;
+  height: 50%;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 17px;
+  padding: 2%;
+}
+
+.adive-text {
+  display: inline-flex;
+  color: var(--neon-green);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.data-container{
+    color: var(--light-cyan);
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.pattern-divider {
+  width: 85%;
+  height: 6%;
+}
+
+.dice-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--neon-green);
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  bottom: -8%;
+  cursor: pointer;
+  transition: 0.6s all;
+}
+
+.dice-btn:hover {
+    box-shadow: 0px 0px 25px 4px rgba(82, 255, 168, 1);
+}
+
+.dice-btn:active {
+  scale: 1.2;
+}
+
+.btn-img {
+  width: 43%;
+}
+
+/**card border animation**/
+
+
+/**Tablet Screen**/
+
+@media (max-width: 900px) {
+  .card-container {
+    width: 70%;
+    height: 50%;
+  }
+}
+
+/**Mobilc Screen **/
+
+@media (max-width: 700px) {
+  .card-container {
+    width: 94%;
+    height: 50%;
+  }
+
+  .quote-text {
+    font-size: 1.4rem;
+  }
+}
